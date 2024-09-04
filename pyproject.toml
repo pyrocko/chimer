@@ -1,0 +1,32 @@
+[project]
+name = "chimer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.8.2",
+    "pyrocko>=2024.1.10",
+    "typing-extensions>=4.12.2",
+    "rich>=13.8.0",
+    "numpy==1.26.4",
+    "typer>=0.12.5",
+]
+
+[project.scripts]
+chimer = "chimer.app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.3",
+    "pre-commit>=3.8.0",
+    "pytest>=8.3.2",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.ruff]
+line-length = 88
