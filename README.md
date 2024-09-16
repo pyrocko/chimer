@@ -2,17 +2,22 @@
 
 *Earthquake Moment Magnitude Estimation from Peak Ground Motion*
 
-![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 
 *Chimer* is a framework for earthquake moment magnitude estimation from observed peak ground motions (PGM). It builds on top of `pyrocko.gf` Green's function data bases for forward modelling seismic sources and waveforms.
+
+![image](https://github.com/user-attachments/assets/196406da-4127-4aef-8b85-125109567c8a)
 
 Key features include:
 
 * Creation of synthetic ground motion databases
 * Caluclation of statistical peak acceleration, velocity and displacement
 * Forward modelling of PGM
+
+![image](https://github.com/user-attachments/assets/f4998004-a0e8-4d76-942c-bf48baa67e81)
+
 
 ## Example
 
