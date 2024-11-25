@@ -5,6 +5,8 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
+[![DOI](https://zenodo.org/badge/852235156.svg)](https://doi.org/10.5281/zenodo.14217498)
+
 
 *Chimer* is a framework for earthquake moment magnitude estimation from observed peak ground motions (PGM). It builds on top of `pyrocko.gf` Green's function data bases for forward modelling seismic sources and waveforms.
 
